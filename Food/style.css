@@ -20,13 +20,35 @@ header {
 header .imgbox {
   width: 40px;
 }
+header .btn {
+  cursor: pointer;
+  background-color: #f2f2f4;
+  width: 40px;
+  height: 40px;
+  display: none;
+  padding: 2px;
+}
 header nav a {
+  cursor: pointer;
   font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
 header nav .home-color {
   color: #74bebc;
+}
+@media screen and (max-width: 990px) {
+  header .imgbox {
+    width: 30px;
+  }
+  header nav {
+    display: none;
+  }
+  header .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 #beautiful {
@@ -127,8 +149,7 @@ header nav .home-color {
 }
 #browse .textbox h4 span {
   color: #3cc1d8;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 #browse .btn {
   font-size: 18px;
