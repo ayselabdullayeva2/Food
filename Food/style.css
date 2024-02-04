@@ -42,7 +42,7 @@ header nav .home-color {
 }
 @media screen and (max-width: 990px) {
   header .imgbox {
-    width: 30px;
+    width: 40px;
   }
   header nav {
     display: none;
@@ -92,6 +92,7 @@ header nav .home-color {
   }
   #beautiful .box {
     text-align: center;
+    margin-right: 60px;
   }
 }
 
