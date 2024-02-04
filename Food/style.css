@@ -86,12 +86,14 @@ header nav .home-color {
   font-size: 20px;
 }
 @media screen and (max-width: 990px) {
-  #beautiful {
-    margin-left: 0;
-    margin-right: 0;
-  }
   #beautiful .imgbox {
-    width: 400px;
+    width: 600px;
+    margin-top: 80px;
+  }
+  #beautiful .box h1 {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
