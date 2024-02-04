@@ -90,10 +90,8 @@ header nav .home-color {
     width: 600px;
     margin-top: 80px;
   }
-  #beautiful .box h1 {
-    font-size: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+  #beautiful .box {
+    text-align: center;
   }
 }
 
