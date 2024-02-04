@@ -15,9 +15,6 @@ section {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px 0;
 }
 header .imgbox {
@@ -41,9 +38,6 @@ header nav .home-color {
   color: #74bebc;
 }
 @media screen and (max-width: 990px) {
-  header .imgbox {
-    width: 40px;
-  }
   header nav {
     display: none;
   }
@@ -88,11 +82,10 @@ header nav .home-color {
 @media screen and (max-width: 990px) {
   #beautiful .imgbox {
     width: 600px;
-    margin-top: 80px;
+    margin-top: 48px;
   }
-  #beautiful .box {
-    text-align: center;
-    margin-right: 60px;
+  #beautiful .box .trustpilot {
+    margin: 25px 300px;
   }
 }
 
@@ -121,6 +114,21 @@ header nav .home-color {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 990px) {
+  #thehome .textbox {
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    margin-left: 165px;
+  }
+  #thehome .textbox h5 {
+    margin-left: 115px;
+  }
+  #thehome .imgbox {
+    width: 600px;
+    margin-top: 40px;
+  }
+}
 
 #works h1 {
   font-weight: 700;
@@ -143,6 +151,13 @@ header nav .home-color {
   font-size: 20px;
   color: #676f8b;
   line-height: 1.3;
+}
+@media screen and (max-width: 990px) {
+  #works .box .imgbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 #browse .textbox {
