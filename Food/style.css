@@ -119,10 +119,11 @@ header nav .home-color {
     text-align: center;
   }
   #thehome .textbox h1 {
-    margin-left: 165px;
+    margin-left: 150px;
   }
   #thehome .textbox h5 {
-    margin-left: 115px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
   #thehome .imgbox {
     width: 600px;
@@ -152,14 +153,6 @@ header nav .home-color {
   color: #676f8b;
   line-height: 1.3;
 }
-@media screen and (max-width: 990px) {
-  #works .box .imgbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 #browse .textbox {
   width: 500px;
   text-align: center;
@@ -254,6 +247,20 @@ header nav .home-color {
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
+}
+@media screen and (max-width: 990px) {
+  #order .imgbox {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  #order .textbox h1 {
+    margin-right: 110px;
+    margin-left: 110px;
+  }
+  #order .textbox h5 {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
 }
 
 #callour {
