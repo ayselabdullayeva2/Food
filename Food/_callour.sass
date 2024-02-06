@@ -17,11 +17,34 @@
             padding: 13px 34px
     .imgbox
         width: 520px
-    @media screen and ( max-width: 990px )
+    @media screen and ( max-width: 340px )
         .imgbox
-            margin: 70px
+            width: auto
         .textbox
             text-align: center
-            h1,h5
-               margin-right: 100px
-               margin-left: 100px
+            h5
+                margin: 20px
+            .btn
+                margin-bottom: 50px  
+    @media ( min-width: 341px ) and ( max-width: 767px )
+        .imgbox
+            width: auto
+        .textbox
+            text-align: center
+            h1
+                padding: 0 30px
+            h5
+                margin: 25px 40px
+            .btn
+                margin-bottom: 50px
+    @media ( min-width: 767px ) and ( max-width: 990px )
+        .imgbox
+            width: auto
+        .textbox
+            text-align: center
+            h1
+                padding: 0 30px
+            h5
+                margin: 25px 100px
+            .btn
+                margin-bottom: 50px
